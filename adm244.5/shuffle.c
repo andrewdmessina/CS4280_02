@@ -26,8 +26,11 @@ card_t deck[DECK];
 // main shuffle program
 int main(){
 	
+	// declare counters
+	int i, j, a = 1;
+
 	// start loop for all suits
-	for ( i = 1; i <= SUITS; i++){
+	for (i = 1; i <= SUITS; i++){
 
 		// start loop for all cards within a suit
 		for (j = 1; j <= CARDS; j++){
