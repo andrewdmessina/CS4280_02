@@ -1,4 +1,4 @@
-#ifndefine BUILDTREE_H
+#ifndef BUILDTREE_H
 #define BUILDTREE_H
 
 // stuff
