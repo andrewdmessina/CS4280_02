@@ -1,0 +1,10 @@
+CC=gcc
+CFLAGS=-g -I.
+TARGET=P0
+OBJS=PO_main.c buildTree.c traversals.c 
+DEPS=buildTree.h traversals.h node.h
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ &< $(CFLAGS)
+P0_main: $(OBJS)
+	$(CC) -o $@ $^ $(CFLAGS)
