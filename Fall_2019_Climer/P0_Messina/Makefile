@@ -7,3 +7,5 @@ DEPS=buildTree.h traversals.h node.h
 	$(CC) -c -o $@ $< $(CFLAGS)
 P0: $(OBJS)
 	$(CC) -o $@ $^ $(CFLAGS)
+clean:
+	rm *.o
