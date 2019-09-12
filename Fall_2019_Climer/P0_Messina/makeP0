@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CC=gcc
 CFLAGS=-g -I.
 TARGET=P0
@@ -8,3 +9,9 @@ DEPS=buildTree.h traversals.h node.h
 	$(CC) -c -o $@ &< $(CFLAGS)
 P0_main: $(OBJS)
 	$(CC) -o $@ $^ $(CFLAGS)
+=======
+// Andrew D Messina
+// andrewdmessina@gmail.com
+// UMSL CS4280_002 Fall 2019 Sharlee Climer
+
+>>>>>>> f9f82aea00cd9adf0c9c5252cf23badfae437afb
